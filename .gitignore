@@ -1,0 +1,23 @@
+# PlatformIO / ESP-IDF build artefacts
+.pio/
+build/
+managed_components/
+CMakeFiles/
+compile_commands.json
+sdkconfig
+sdkconfig.*
+!sdkconfig.defaults
+!sdkconfig.defaults.*
+
+# Firmware images and local device backups
+backups/
+*.bin
+*.elf
+*.map
+
+# Editors, assistants and operating-system files
+.idea/
+.vscode/
+.claude/
+.DS_Store
+*.log

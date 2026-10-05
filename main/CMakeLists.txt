@@ -1,0 +1,28 @@
+idf_component_register(
+    SRCS
+        "app_main.c"
+        "app_storage.c"
+        "app_network.c"
+        "app_data.c"
+        "app_web.c"
+        "app_ui.c"
+        "fonts/app_font_12.c"
+        "fonts/app_font_14.c"
+        "fonts/app_font_16.c"
+        "fonts/app_font_18.c"
+        "fonts/app_font_20.c"
+        "fonts/app_font_24.c"
+        "fonts/app_font_28.c"
+        "fonts/app_font_32.c"
+        "fonts/app_weather_icons_32.c"
+        "fonts/app_weather_icons_48.c"
+    INCLUDE_DIRS "."
+    REQUIRES
+        esp_event
+        esp_http_client
+        esp_http_server
+        esp_netif
+        esp_wifi
+        mbedtls
+        nvs_flash
+)
